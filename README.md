@@ -3,7 +3,7 @@
 ### 🔍 Project Overview
 This project is a comprehensive SQL-only data analysis case study focused on fraud detection. The entire data wrangling, enrichment, and insight generation process was performed in **Google BigQuery**, with no use of Python or external tools.
 
-The main goal was to demonstrate **advanced SQL skills** across all stages of data analysis – from preprocessing and feature engineering to fraud pattern analysis and business insights.
+The main goal was to demonstrate **advanced SQL skills** across all stages of data analysis, from preprocessing and feature engineering to fraud pattern analysis and business insights.
 
 ---
 
