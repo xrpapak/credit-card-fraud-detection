@@ -1,13 +1,13 @@
-## 📊 Fraud Detection SQL Analysis (BigQuery Only)
+## Fraud Detection SQL Analysis (BigQuery Only)
 
-### 🔍 Project Overview
+### Project Overview
 This project is a comprehensive SQL-only data analysis case study focused on fraud detection. The entire data wrangling, enrichment, and insight generation process was performed in **Google BigQuery**, with no use of Python or external tools.
 
 The main goal was to demonstrate **advanced SQL skills** across all stages of data analysis, from preprocessing and feature engineering to fraud pattern analysis and business insights.
 
 ---
 
-### 🗂 Dataset
+### Dataset
 The dataset consists of 10,000 transactions with the following columns:
 - `Profession`: Customer's profession  
 - `Income`: Annual income  
@@ -18,7 +18,7 @@ The dataset consists of 10,000 transactions with the following columns:
 
 ---
 
-### 🧹 Data Cleaning & Preparation
+### Data Cleaning & Preparation
 All data preparation was done using SQL in BigQuery:
 - Splitting `Expiry` into `expiry_month` and `expiry_year`
 - Extracting `card_length` (length of credit card number)
@@ -29,7 +29,7 @@ Created cleaned dataset: `cleaned_data`
 
 ---
 
-### 📈 Analysis & Insights
+### Analysis & Insights
 
 #### 🔹 Fraud Rates by Category
 - Overall fraud rate: **~50.16%**
@@ -47,7 +47,7 @@ Created cleaned dataset: `cleaned_data`
 
 ---
 
-### ⚠️ Fraud Detection Logic
+### Fraud Detection Logic
 Introduced a new logic-based field: `fraud_alert_level` with values like:
 - `Critical Fraud Case`
 - `Recent Card Fraud`
@@ -58,7 +58,7 @@ Introduced a new logic-based field: `fraud_alert_level` with values like:
 
 ---
 
-### 🔺 Fraud Prioritization Matrix
+### Fraud Prioritization Matrix
 Each `fraud_alert_level` was assigned a business priority level (Immediate / High / Moderate / Low) based on fraud share and average income impact.
 
 | Alert Level               | Priority | Avg Income | Fraud Share |
@@ -71,7 +71,7 @@ Each `fraud_alert_level` was assigned a business priority level (Immediate / Hig
 
 ---
 
-### 🏆 Leaderboard – Top 10 Security Codes by Fraud Rate
+### Leaderboard – Top 10 Security Codes by Fraud Rate
 
 | Security Code | Fraud Rate |
 |---------------|------------|
@@ -88,19 +88,19 @@ Each `fraud_alert_level` was assigned a business priority level (Immediate / Hig
 
 ---
 
-### 📊 Visualization Sample
+### Visualization Sample
 
 ![Top 10 Security Codes Fraud Rate](images/security_code_leaderboard.png)
 
 ---
 
-### 🛠️ Tools Used
+### Tools Used
 - **Google BigQuery (Free Tier)** – All queries and logic
 - **Matplotlib (local)** – One chart created based on exported query results
 
 ---
 
-### 🧠 Skills Demonstrated
+### Skills Demonstrated
 - Advanced SQL (CASE, CTEs, Window Functions, Conditional Aggregation)
 - Feature Engineering with SQL only
 - Fraud Detection Logic Design
@@ -109,5 +109,5 @@ Each `fraud_alert_level` was assigned a business priority level (Immediate / Hig
 
 ---
 
-### 👤 Author
+### Author
 Christos Papakostas
