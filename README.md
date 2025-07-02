@@ -31,16 +31,16 @@ Created cleaned dataset: `cleaned_data`
 
 ### Analysis & Insights
 
-#### 🔹 Fraud Rates by Category
+#### Fraud Rates by Category
 - Overall fraud rate: **~50.16%**
 - Profession with highest fraud rate: **Doctors (52.06%)**
 - High-income users have slightly higher fraud exposure
 
-#### 🔹 Feature Engineering Results
+#### Feature Engineering Results
 - `card_length` and `security_code` showed strong correlations with fraud
 - Short card lengths (11–13 digits) had noticeably higher fraud rates
 
-#### 🔹 Advanced Aggregations
+#### Advanced Aggregations
 - Fraud rates per `Profession × Income Category`
 - `card_length` breakdown by profession
 - Risk ranking per profession based on fraud_rate
